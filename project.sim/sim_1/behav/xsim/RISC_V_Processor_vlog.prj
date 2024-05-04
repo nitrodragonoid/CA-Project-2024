@@ -1,0 +1,20 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project.srcs/sources_1/new/ALU_64_bit.v" \
+"../../../../calabproject/lab9.srcs/sources_1/new/ALU_Control.v" \
+"../../../../calabproject/lab9.srcs/sources_1/new/Adder.v" \
+"../../../../calabproject/lab9.srcs/sources_1/new/Control_Unit.v" \
+"../../../../calabproject/lab9.srcs/sources_1/new/Data_Memory.v" \
+"../../../../project.srcs/sources_1/new/ImmGen.v" \
+"../../../../project.srcs/sources_1/new/InsParser.v" \
+"../../../../project.srcs/sources_1/new/Instruction_Memory.v" \
+"../../../../project.srcs/sources_1/new/Mux.v" \
+"../../../../calabproject/lab9.srcs/sources_1/new/Program_Counter.v" \
+"../../../../calabproject/lab9.srcs/sources_1/new/registerFile.v" \
+"../../../../project.srcs/sources_1/imports/new/RISC_V_Processor.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

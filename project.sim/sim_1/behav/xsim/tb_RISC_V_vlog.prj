@@ -1,0 +1,21 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project.srcs/sources_1/new/ALU_64_bit.v" \
+"../../../../../Desktop/project/calabproject/lab9.srcs/sources_1/new/ALU_Control.v" \
+"../../../../../Desktop/project/calabproject/lab9.srcs/sources_1/new/Adder.v" \
+"../../../../../Desktop/project/calabproject/lab9.srcs/sources_1/new/Control_Unit.v" \
+"../../../../../Desktop/project/calabproject/lab9.srcs/sources_1/new/Data_Memory.v" \
+"../../../../project.srcs/sources_1/new/ImmGen.v" \
+"../../../../project.srcs/sources_1/new/InsParser.v" \
+"../../../../project.srcs/sources_1/new/Instruction_Memory.v" \
+"../../../../project.srcs/sources_1/new/Mux.v" \
+"../../../../../Desktop/project/calabproject/lab9.srcs/sources_1/new/Program_Counter.v" \
+"../../../../project.srcs/sources_1/imports/new/RISC_V_Processor.v" \
+"../../../../../Desktop/project/calabproject/lab9.srcs/sources_1/new/registerFile.v" \
+"../../../../../Desktop/project/RISC_V_Processor/RISC_V_Processor.srcs/sim_1/new/tb_RISC_V.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
